@@ -1,0 +1,54 @@
+body{
+    background-image: url("../img/back3.png");
+    background-repeat: no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+button.btm01:active {
+    color: yellow;
+}
+.col-md-3{
+    padding-top: 100px;
+}
+#back{
+    background: rgb(236,232,232);
+    background: linear-gradient(90deg, rgba(236,232,232,1) 1%,
+    rgba(252,252,252,1) 13%, rgba(252,252,252,1) 90%, rgba(236,232,232,1) 100%);
+}
+.countSim{
+    color: rgb(161, 161, 161);
+    vertical-align: bottom;
+    font-size: 12px;
+}
+.label {
+    font-weight: 100;
+}
+.buyNumber{
+    width: 30%;
+
+}
+.buyNumber, .numbersToBuy{
+    padding: 5px;
+    font-size: 11px;
+    float: right;
+    vertical-align: middle;
+}
+
+.tabbed > td > label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.radioLabel{
+    font-weight: 100 ;
+}
+.table-condensed {
+    padding: 1px;
+}
+table {
+    padding: 8px;
+}
